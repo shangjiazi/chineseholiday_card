@@ -66,13 +66,13 @@ class ChineseCalendarCard extends LitElement {
         .date_week {
           font-size: 18px;
           color: var(--main-title-color);
-          text-align: right;
+          text-align: left;
           margin-right: 20px;
         }
         .date_lunar {
           font-size: 14px;
           color: var(--main-title-color);
-          text-align: right;
+          text-align: left;
           margin-right: 20px;
           margin-top: -10px;
         }
