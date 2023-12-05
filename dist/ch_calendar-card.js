@@ -74,7 +74,7 @@ class ChineseCalendarCard extends LitElement {
             font-size: 16px;
             color: var(--main-title-color);
             text-align: left;
-            padding-top: -5px;
+            padding-top: -15px;
             // margin-right: 20px;
         }              
         .date_shji {
