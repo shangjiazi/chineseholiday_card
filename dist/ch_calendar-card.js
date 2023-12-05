@@ -176,10 +176,9 @@ class ChineseCalendarCard extends LitElement {
             ${this.currentTime}
           </div>
           
-          
+          <div class="latest_title">距离</div>
+          <div class="latest_holiday">${this.latestReminder.name}</div>
           <div class="flex_container_center">
-            <div class="latest_title">距离</div>
-            <div class="latest_holiday">${this.latestReminder.name}</div>
             <div class="latest_days">
               ${this.latestReminder.days}
             </div>
