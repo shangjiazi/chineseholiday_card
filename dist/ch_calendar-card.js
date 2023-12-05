@@ -170,17 +170,13 @@ class ChineseCalendarCard extends LitElement {
           <div class="date_lunar">
             ${this.attributes.lunar}
           </div>          
-
-	  
           <div class="date_week">
-            <p class="icon_state" style="background: none, url(${this.getStateIcon(this.calendarEntity.state)}) no-repeat; background-size: contain;"></p>
             ${this.attributes.week}
+            <p class="icon_state" style="background: none, url(${this.getStateIcon(this.calendarEntity.state)}) no-repeat; background-size: contain;"></p>   
           </div>
-
           <div class="date_shji">
             ${this.currentTime}
           </div>
-        
           <div class="latest_title">距离</div>
           <div class="latest_holiday">${this.latestReminder.name}</div>
           <div class="flex_container_center">
