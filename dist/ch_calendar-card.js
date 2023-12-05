@@ -73,7 +73,7 @@ class ChineseCalendarCard extends LitElement {
             font-size: 16px;
             color: var(--main-title-color);
             text-align: left;
-            padding-top: -15px;
+            padding-top: 5px;
             // margin-right: 20px;
         }              
         .date_shji {
@@ -175,15 +175,15 @@ class ChineseCalendarCard extends LitElement {
           <div class="date_shji">
             ${this.currentTime}
           </div>
-          <div class="latest_title">距离</div>
-          <div class="latest_holiday">${this.latestReminder.name}</div>
+          
+          
           <div class="flex_container_center">
+            <div class="latest_title">距离</div>
+            <div class="latest_holiday">${this.latestReminder.name}</div>
             <div class="latest_days">
               ${this.latestReminder.days}
             </div>
-            <div class="latest_days_unit">
-              天
-            </div>
+            <div class="latest_days_unit">天</div>
           </div>
           <div class="latest_date">${this.dateFormatIfNeed(this.latestReminder.date)}</div>
         </div>
