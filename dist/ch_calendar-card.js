@@ -59,30 +59,33 @@ class ChineseCalendarCard extends LitElement {
         .date_solar {
           font-size: 20px;
           text-align: left;
-          margin-right: 20px;
-          padding-top: 20px;
+        //   margin-right: 20px;
+          padding-top: 5px;
           color: var(--main-title-color);
         }
+        .date_lunar {
+            font-size: 18px;
+            color: var(--main-title-color);
+            text-align: left;
+            // margin-right: 20px;
+            padding-top: 5px;
+        }  
+        .date_week {
+            font-size: 16px;
+            color: var(--main-title-color);
+            text-align: left;
+            padding-top: 5px;
+            // margin-right: 20px;
+        }              
         .date_shji {
           font-size: 50px;
           text-align: center;
-          margin-right: 17px;
-          padding-top: 20px;
+        //   margin-right: 17px;
+        //   padding-top: 0px;
           color: var(--main-title-color);
         }        
-        .date_week {
-          font-size: 18px;
-          color: var(--main-title-color);
-          text-align: left;
-          margin-right: 20px;
-        }
-        .date_lunar {
-          font-size: 14px;
-          color: var(--main-title-color);
-          text-align: left;
-          margin-right: 20px;
-          margin-top: -10px;
-        }
+
+
         .latest_title {
           color: var(--main-title-color);
           font-size: 14px;
