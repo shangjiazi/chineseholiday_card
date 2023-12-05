@@ -57,8 +57,8 @@ class ChineseCalendarCard extends LitElement {
         }
 
         .date_solar {
-          font-size: 30px;
-          text-align: left;
+          font-size: 50px;
+          text-align: center;
           margin-right: 17px;
           padding-top: 20px;
           color: var(--main-title-color);
