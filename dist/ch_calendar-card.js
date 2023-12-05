@@ -74,11 +74,11 @@ class ChineseCalendarCard extends LitElement {
             font-size: 16px;
             color: var(--main-title-color);
             text-align: left;
-            padding-top: 5px;
+            padding-top: -28px;
             // margin-right: 20px;
         }              
         .date_shji {
-          font-size: 50px;
+          font-size: 60px;
           text-align: center;
         //   margin-right: 17px;
         //   padding-top: 0px;
@@ -180,7 +180,7 @@ class ChineseCalendarCard extends LitElement {
           <div class="latest_title">距离</div>
           <div class="latest_holiday">${this.latestReminder.name}</div>
           <div class="flex_container_center">
-            <div class="latest_days">
+            <div class="latest_days">date_week
               ${this.latestReminder.days}
             </div>
             <div class="latest_days_unit">
