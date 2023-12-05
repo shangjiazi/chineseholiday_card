@@ -57,12 +57,19 @@ class ChineseCalendarCard extends LitElement {
         }
 
         .date_solar {
-          font-size: 50px;
-          text-align: center;
+          font-size: 20px;
+          text-align: left;
           margin-right: 17px;
           padding-top: 20px;
           color: var(--main-title-color);
         }
+        .date_shji {
+          font-size: 30px;
+          text-align: center;
+          margin-right: 17px;
+          padding-top: 20px;
+          color: var(--main-title-color);
+        }        
         .date_week {
           font-size: 18px;
           color: var(--main-title-color);
@@ -157,7 +164,7 @@ class ChineseCalendarCard extends LitElement {
           <div class="date_solar">
             ${this.attributes.solar}
           </div>
-          <div class="date_solar">
+          <div class="date_shji">
             ${this.currentTime}
           </div>
           <div class="date_lunar">
