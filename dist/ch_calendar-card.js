@@ -58,7 +58,7 @@ class ChineseCalendarCard extends LitElement {
 
         .date_solar {
           font-size: 30px;
-          text-align: left;
+          text-align: right;
           margin-right: 17px;
           padding-top: 20px;
           color: var(--main-title-color);
@@ -66,13 +66,13 @@ class ChineseCalendarCard extends LitElement {
         .date_week {
           font-size: 18px;
           color: var(--main-title-color);
-          text-align: left;
+          text-align: right;
           margin-right: 20px;
         }
         .date_lunar {
           font-size: 14px;
           color: var(--main-title-color);
-          text-align: left;
+          text-align: right;
           margin-right: 20px;
           margin-top: -10px;
         }
@@ -157,6 +157,9 @@ class ChineseCalendarCard extends LitElement {
           <div class="date_solar">
             ${this.attributes.solar}
           </div>
+          <div class="date_solar">
+            ${this.currentTime}
+          </div>
           <div class="date_week">
             <p class="icon_state" style="background: none, url(${this.getStateIcon(this.calendarEntity.state)}) no-repeat; background-size: contain;"></p>
             ${this.attributes.week}
@@ -165,9 +168,6 @@ class ChineseCalendarCard extends LitElement {
           <div class="date_week">
             ${this.calendarEntity.state}，${this.attributes.week}
           </div>
-          <div class="date_solar">
-            ${this.currentTime}
-          </div>	  
           -->
           <div class="date_lunar">
             ${this.attributes.lunar}
