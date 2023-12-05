@@ -37,7 +37,6 @@ class ChineseCalendarCard extends LitElement {
           background-position: center center;
           background-repeat: no-repeat;
           text-indent: -9999px;
-          margin-left: 10px;
         }        
         .card {
           padding: 0 18px 18px 18px;
@@ -78,7 +77,7 @@ class ChineseCalendarCard extends LitElement {
             // margin-right: 20px;
         }              
         .date_shji {
-          font-size: 50px;
+          font-size: 60px;
           text-align: center;
         //   margin-right: 17px;
         //   padding-top: 0px;
@@ -172,7 +171,6 @@ class ChineseCalendarCard extends LitElement {
           </div>          
           <div class="date_week">
             ${this.attributes.week}
-            <p class="icon_state" style="background: none, url(${this.getStateIcon(this.calendarEntity.state)}) no-repeat; background-size: contain;"></p>   
           </div>
           <div class="date_shji">
             ${this.currentTime}
