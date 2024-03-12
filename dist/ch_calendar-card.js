@@ -76,6 +76,13 @@ class ChineseCalendarCard extends LitElement {
           margin-right: 20px;
           margin-top: -10px;
         }
+        .date_weak_number {
+          font-size: 14px;
+          color: var(--main-title-color);
+          text-align: right;
+          margin-right: 20px;
+          margin-top: 5px;
+        }        
         .latest_title {
           color: var(--main-title-color);
           font-size: 14px;
@@ -171,7 +178,10 @@ class ChineseCalendarCard extends LitElement {
           -->
           <div class="date_lunar">
             ${this.attributes.lunar}
-          </div>
+          </div>  
+          <div class="date_weak_number">
+            第${this.attributes.week_number}周
+          </div>                  
           <div class="latest_title">距离</div>
           <div class="latest_holiday">${this.latestReminder.name}</div>
           <div class="flex_container_center">
